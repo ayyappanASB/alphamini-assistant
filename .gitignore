@@ -1,0 +1,22 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local configuration, logs, and editor files
+.env
+.env.*
+!.env.example
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+cloudflared*

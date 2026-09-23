@@ -1,0 +1,9 @@
+# ── VISION venv: pose_client.py ONLY ────────────────────────────────────────
+# Run pose_client.py with THIS venv (a SEPARATE venv from requirements.txt).
+# No AlphaMini SDK and no protobuf pin here — mediapipe pulls whatever
+# protobuf version it needs on its own. See README.md for why these two
+# dependency sets can't be installed together.
+
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+numpy==1.26.4

@@ -1,0 +1,11 @@
+# ── SERVER venv: robot + Flask web UI + pose-mimic gating ──────────────────
+# Run main.py with THIS venv. Do NOT install requirements-vision.txt here —
+# mediapipe needs protobuf>=4.25,<5, which breaks the AlphaMini SDK below.
+# See README.md for the full explanation and the two-venv setup.
+
+alphamini>=1.2.0
+flask>=2.0.0
+flask-cors>=3.0.0
+qrcode[pil]>=7.0.0
+protobuf==3.20.3
+websockets==10.4
